@@ -88,10 +88,10 @@ Somar os numeros "${NUM_A}" e"${NUM_B}"
 [Arguments]   ${NOME} ${SOBRENOME} {IDADE}
     ${NOME}_{SOBRENOME}_{IDADE}@robot.com
 
-Contar de 0 a 9
-    FOR     ${COUNT}    IN RANGE
-        Log To Console    ${COUNT}
-    END
+#Contar de 0 a 9
+#    FOR     ${COUNT}    IN RANGE
+ #       Log To Console    ${COUNT}
+  #  END
 
 Percorrer itens de uma lista 
     @{FRUSTAS}    Create List     Banana    Abacaxi    Limao
